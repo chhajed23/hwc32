@@ -16,7 +16,7 @@ class Box  {
       //this.image = loadImage("sprites/wood1.png");
     }
     display(){
-      console.log(this.body.speed);
+      
       if(this.body.speed < 3){
         push();
         var angle = this.body.angle;
