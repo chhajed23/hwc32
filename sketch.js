@@ -148,8 +148,8 @@ function mouseReleased(){
 
 
  async function getBackgroundImage(){
-   //var response= await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
-   var response= await fetch("http://worldtimeapi.org/api/timezone/America/Los_Angeles");
+   var response= await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata");
+   //var response= await fetch("https://worldtimeapi.org/api/timezone/America/Los_Angeles");
    var responseJSON=await response.json();
     var dt=responseJSON.datetime;
     var hr=dt.slice(11,13);
